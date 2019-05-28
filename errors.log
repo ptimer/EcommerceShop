@@ -1,0 +1,66 @@
+2019-05-01 17:43:30 /lggp/controller/admin/categories/new_category_controller.php 8 Undefined index: supercategory_id  
+2019-05-01 17:44:19 /lggp/controller/admin/categories/new_category_controller.php 8 Undefined index: supercategory_id  
+2019-05-01 18:02:04 /lggp/controller/admin/products_promotions_reviews/new_product_controller.php 8 Undefined index: subcategory_id  
+2019-05-01 18:03:07 /lggp/controller/admin/products_promotions_reviews/new_product_controller.php 8 Undefined index: subcategory_id  
+2019-05-01 18:10:42 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 18:12:07 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 18:14:11 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 18:15:22 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 18:27:31 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 18:27:59 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 19:00:49 /lggp/controller/admin/products_promotions_reviews/new_product_promotion_controller.php PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '212122-11-21T11:11' for column 'end_date' at row 1 in C:\wamp\www\lggp\model\database\PromotionsDao.php:37
+Stack trace:
+#0 C:\wamp\www\lggp\model\database\PromotionsDao.php(37): PDOStatement->execute(Array)
+#1 C:\wamp\www\lggp\controller\admin\products_promotions_reviews\new_product_promotion_controller.php(31): model\database\PromotionsDao->createPromotion(Object(model\Promotion))
+#2 {main}
+2019-05-01 20:26:50 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 20:27:42 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 20:27:53 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 20:28:04 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 20:28:15 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 20:44:49 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 20:49:27 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 20:50:28 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 20:51:59 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 20:52:44 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 21:06:06 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 21:06:15 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 21:06:23 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 21:06:41 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 21:07:04 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 21:07:10 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 21:07:49 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 21:08:48 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 21:09:04 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 21:10:37 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 21:25:57 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 21:26:02 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 21:26:30 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-01 21:30:04 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:20:46 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:20:51 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:20:59 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:23:42 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:23:51 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:23:57 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:24:56 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:25:09 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:26:01 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:26:04 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:26:15 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:26:24 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:26:51 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:27:08 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:30:16 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:30:20 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:30:24 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:30:39 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:30:42 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:34:25 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:34:30 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:35:52 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 08:59:22 /lggp/controller/admin/products_promotions_reviews/edit_product_controller.php 8 Undefined offset: 0  
+2019-05-02 10:42:43 /lggp/controller/admin/orders/status_order_controller.php 2 require_once(send_status_change.php): failed to open stream: No such file or directory  
+2019-05-02 10:43:30 /lggp/controller/admin/orders/status_order_controller.php 2 require_once(send_status_change.php): failed to open stream: No such file or directory  
+2019-05-02 10:48:19 /lggp/controller/admin/orders/status_order_controller.php 2 require_once(send_status_change.php): failed to open stream: No such file or directory  
+2019-05-02 10:48:23 /lggp/controller/admin/orders/status_order_controller.php 2 require_once(send_status_change.php): failed to open stream: No such file or directory  

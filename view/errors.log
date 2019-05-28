@@ -1,0 +1,20 @@
+2019-04-26 13:09:57 /MagBuy/view/admin/admin_panel.php PDOException: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ in C:\wamp\www\MagBuy\model\database\Connect\Connection.php:18
+Stack trace:
+#0 C:\wamp\www\MagBuy\model\database\Connect\Connection.php(18): PDO->__construct('mysql:host=loca...', 'admin', 'admin')
+#1 C:\wamp\www\MagBuy\model\database\Connect\Connection.php(27): model\database\Connect\Connection->__construct()
+#2 C:\wamp\www\MagBuy\model\database\UserDao.php(66): model\database\Connect\Connection::getInstance()
+#3 C:\wamp\www\MagBuy\model\database\UserDao.php(73): model\database\UserDao->__construct()
+#4 C:\wamp\www\MagBuy\utility\blocked_user.php(15): model\database\UserDao::getInstance()
+#5 C:\wamp\www\MagBuy\view\admin\admin_panel.php(17): require_once('C:\\wamp\\www\\Mag...')
+#6 {main}
+2019-05-02 07:30:26 /lggp/view/admin/admin_panel.php PDOException: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ in C:\wamp\www\lggp\model\database\Connect\Connection.php:18
+Stack trace:
+#0 C:\wamp\www\lggp\model\database\Connect\Connection.php(18): PDO->__construct('mysql:host=loca...', 'admin', 'admin')
+#1 C:\wamp\www\lggp\model\database\Connect\Connection.php(27): model\database\Connect\Connection->__construct()
+#2 C:\wamp\www\lggp\model\database\UserDao.php(66): model\database\Connect\Connection::getInstance()
+#3 C:\wamp\www\lggp\model\database\UserDao.php(73): model\database\UserDao->__construct()
+#4 C:\wamp\www\lggp\utility\blocked_user.php(15): model\database\UserDao::getInstance()
+#5 C:\wamp\www\lggp\view\admin\admin_panel.php(17): require_once('C:\\wamp\\www\\lgg...')
+#6 {main}
